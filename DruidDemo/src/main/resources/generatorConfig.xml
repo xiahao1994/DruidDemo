@@ -3,6 +3,7 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
     <context id="mysql" targetRuntime="MyBatis3">
+        <!--删除注释-->
         <commentGenerator>
             <property name="suppressAllComments" value="true"></property>
             <property name="suppressData" value="true"></property>
